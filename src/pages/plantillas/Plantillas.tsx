@@ -1,4 +1,5 @@
 import './plantillas.css';
+// @ts-expect-error type "any" found in props of external React Component (Splide)
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { useEffect, useState } from 'react';
 import '@splidejs/react-splide/css';
