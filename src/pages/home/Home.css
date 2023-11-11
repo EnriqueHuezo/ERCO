@@ -372,8 +372,14 @@
         padding: 0.5rem 1rem;
     }
 
+    .home-container .home-section-02 {
+        height: auto;
+        background-color: #F6F2EF;
+    }
+
     .home-section-02 .section-content {
-        padding: 0rem 1rem;
+        padding: 2rem 1rem;
+        gap: 1rem;
     }
 
     .home-section-02 .section-content .title {

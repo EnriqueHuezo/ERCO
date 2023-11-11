@@ -117,6 +117,16 @@
         padding: 0rem 1rem;
     }
 
+    .pmv-container .pmv-section-04 {
+        height: auto;
+        background-color: #F6F2EF;
+    }
+
+    .pmv-section-04 .section-content {
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
     .pmv-section-04 .section-content .title {
         line-height: 1.5rem;
     }
