@@ -1,0 +1,131 @@
+@font-face {
+    font-family: poppins-light-italic;
+    src: url(../../assets/Fonts/Poppins-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url(../../assets/Fonts/Poppins-Light.ttf);
+}
+
+.pmv-container {
+    height: auto;
+    width: 100%;
+}
+
+.pmv-container section {
+    height: 100vh;
+    width: 100%;
+}
+
+.pmv-section-01 {
+    background-image: url(../../assets/img/Background-PMV-2.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+.pmv-section-03 {
+    background-image: url(../../assets/img/Renders.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+.pmv-container .pmv-section-04 {
+    height: 50vh;
+    background-color: #F6F2EF;
+}
+
+.pmv-section-04 .section-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 4rem;
+    gap: 4rem;
+}
+
+.pmv-section-04 .section-content .title {
+    display: flex;
+    flex-direction: column;
+    line-height: 4rem;
+    color: #1F1D1C;
+    
+}
+
+.pmv-section-04 .section-content .title P:first-child {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.pmv-section-04 .section-content .title P:last-child {
+    text-align: right;
+    font-size: 4rem;
+    font-family: poppins-light-italic;
+}
+
+.pmv-section-04 .section-content .info p {
+    color: #1F1D1C;
+    font-family: poppins-light;
+}
+
+@media screen and (max-width: 1100px) {
+    .pmv-section-04 .section-content .title {
+        line-height: 2.5rem;
+    }
+
+    .pmv-section-04 .section-content .title P:first-child {
+        font-size: 2.5rem;
+    }
+
+    .pmv-section-04 .section-content .title P:last-child {
+        font-size: 2.5rem;
+    }
+
+    .pmv-section-04 .section-content .info p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .pmv-section-04 .section-content {
+        gap: 1rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .pmv-section-04 .section-content .title {
+        line-height: 2rem;
+    }
+
+    .pmv-section-04 .section-content .title P:first-child {
+        font-size: 2rem;
+    }
+
+    .pmv-section-04 .section-content .title P:last-child {
+        font-size: 2rem;
+    }
+
+    .pmv-section-04 .section-content .info p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .pmv-section-04 .section-content {
+        padding: 0rem 1rem;
+    }
+
+    .pmv-section-04 .section-content .title {
+        line-height: 1.5rem;
+    }
+
+    .pmv-section-04 .section-content .title P:first-child {
+        font-size: 1.5rem;
+    }
+
+    .pmv-section-04 .section-content .title P:last-child {
+        font-size: 1.5rem;
+    }
+}

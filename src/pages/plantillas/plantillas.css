@@ -1,0 +1,81 @@
+.plantillas-container {
+    height: auto;
+    width: 100%;
+}
+
+.plantillas-container section {
+    height: 100vh;
+    width: 100%;
+    background-color: #1F1D1C;
+}
+
+.plantillas-container .plantillas-section-01 {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #1F1D1C;
+}
+
+.plantillas-section-01 .image-container {
+    height: 100%;
+    width: 100%;
+}
+
+.plantillas-section-01 .image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.plantillas-container .plantillas-section-02 {
+    background-color: #1F1D1C;
+}
+
+.plantillas-section-02 .section-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    gap: 2rem;
+}
+
+.plantillas-section-02 .section-content img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.plantillas-container .plantillas-section-03 {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #1F1D1C;
+}
+
+.plantillas-section-03 .image-container {
+    height: 100%;
+    width: 100%;
+}
+
+.plantillas-section-03 .image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 800px) {
+    .plantillas-section-02 .section-content {
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+}
